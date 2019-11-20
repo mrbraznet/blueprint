@@ -1,0 +1,16 @@
+<div class="row justify-content-center py-4">
+    <div id="search-results" class="list-group list-group-horizontal"></div>
+</div>
+
+<script src="/assets/plugins/search.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        limit: 5,
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>'
+    })
+</script>
+

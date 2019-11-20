@@ -1,14 +1,14 @@
-<footer class="mastfoot mt-auto">
-  <div class="inner">
-    <nav class="nav nav-footer justify-content-center">
-      <p class="nav-link text-muted">
-        Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}
-      </p>
-      
-      {% for item in navigation.footer %}
-      <a class="nav-link" href="{{ item.url }}"
-        target="{{ item.target }}">{{ item.title }}</a>
-      {% endfor %}
-    </nav>
-  </div>
+<footer class="footer">
+
+    <div class="footer-bottom text-center py-5">
+      <ul class="social-list list-unstyled pb-4 mb-0">
+        {% include social.html %}
+      </ul>
+
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a
+          class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for
+        developers</small>
+    </div>
+
 </footer>

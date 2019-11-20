@@ -1,4 +1,4 @@
-title:             
+title:             BlueprintHub
 email:             
 description:       
 author:            Mr. Braz
@@ -10,5 +10,10 @@ markdown:          kramdown
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:
-  - jekyll-feed
   - jekyll-paginate
+
+collections:
+  categories:
+    output: true
+  blueprints:
+    output: true

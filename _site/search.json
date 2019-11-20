@@ -1,0 +1,35 @@
+[
+    
+    {
+  
+        "title"    : "Architecture",
+        "url"      : "/categories/architecture.html",
+        "content" : "Software architecture refers to the high level structures of a software system, the discipline of creating such structures, and the documentation of these structures. These structures are needed to reason about the software system."
+  
+    } ,
+    
+    {
+  
+        "title"    : "Cloud",
+        "url"      : "/categories/cloud.html",
+        "content" : "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet."
+  
+    } ,
+    
+    {
+  
+        "title"    : "Code",
+        "url"      : "/categories/code.html",
+        "content" : ""
+  
+    } ,
+    
+    {
+  
+        "title"    : "Design",
+        "url"      : "/categories/design.html",
+        "content" : "A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process."
+  
+    } 
+    
+]
